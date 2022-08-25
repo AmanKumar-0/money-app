@@ -1,0 +1,21 @@
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    row-gap: 2rem;
+}
+.all-blogs {
+    margin: 20px 0;
+}
+
+@media all and (max-width:425px){
+    .all-blogs {
+        margin: 20px 0;
+    }
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        row-gap: 1.3rem;
+    }
+}

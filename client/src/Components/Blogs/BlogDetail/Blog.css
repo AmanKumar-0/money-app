@@ -1,0 +1,141 @@
+.blog__data{
+    width: 40vw;    
+    margin: 0px auto;
+    overflow: auto; 
+    overflow-wrap: anywhere;
+}
+.blog-image{
+    width: inherit;
+    height: 35vh;   
+    object-fit: contain;
+}
+
+h1 {
+    margin: 5px 0px;
+}
+
+.blog-data p {
+    margin-top: -13px;
+    margin-bottom: 10px;
+}
+
+.reviews {
+    margin: 20px auto 0px auto;
+    width: 40vw;
+}
+.reviews > form{
+    width: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin: 5px 0px;
+}
+.reviews-input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 21px;
+    font-size: medium;
+}
+.submit-review{
+    border: none;
+    outline: none;
+    height: 21px;
+    margin: 5px 0px;
+    font-size: medium;
+}
+.review-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 10px 0px;
+    width: inherit;
+    overflow: auto;
+    overflow-wrap: anywhere;
+}
+button.review-dlt-btn {
+    width: 80px;
+    height: 25px;
+    padding: 3px 0px;
+    border: none;
+    border-radius: 4px;
+}
+button.Submit-review {
+    border: none;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+@media all and (max-width:425px){
+
+    .blog__data {
+        width: 70vw;
+        margin: 0px auto;
+        overflow: auto;
+        overflow-wrap: anywhere;
+    }
+    .blog-image {
+        width: inherit;
+        height: 34vh;
+        object-fit: contain;
+    }
+    h1 {
+        margin: 5px 0px;
+        font-size: larger;
+    }
+    p {
+        font-size: xx-small;
+        margin-top: -8px;
+    }
+    h4 {
+        margin: 10px auto;
+    }
+    .reviews {
+        margin: 5px auto;
+        width: 70vw;
+    }
+    .reviews > form {
+        width: inherit;
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin: 5px 0px;
+    }
+    .reviews-input {
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        height: 18px;
+        font-size: small;
+    }
+    button.Submit-review {
+        border: none;
+        width: 30%;
+        border-radius: 4px;
+        padding: 0px 10px;
+        margin: 0px auto;
+    }
+    .review-desc {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 8px 0px;
+        width: inherit;
+        overflow: auto;
+        overflow-wrap: anywhere;
+    }
+    button.review-dlt-btn {
+        width: 20%;
+        height: 18px;
+        padding: 0px 0px;
+        border: none;
+        border-radius: 4px;
+        font-size: x-small;
+    }
+    p {
+        font-size: xx-small;
+        margin-top: -8px;
+    }   
+}
