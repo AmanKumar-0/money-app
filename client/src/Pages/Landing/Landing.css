@@ -40,16 +40,19 @@
 }
 @media all and (max-width: 425px){
     .landing {
-        /* display: flex; */
-        /* flex-direction: row; */
+        display: flex;
+        flex-direction: column;
         height: 80vh;
         margin-top: 20vw;
         /* justify-content: center; */
         /* align-items: center; */
         text-align: center;
     }
-    .left{
-
+    .left {
+        left: 0;
+        margin: 0px;
+        position: relative;
+        top: 0%;
     }
     .left h1 {
         font-size: medium;
