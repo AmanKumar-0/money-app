@@ -1,0 +1,87 @@
+.creating{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+
+}
+.creating > form{
+        /* width: 50%; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* justify-items: center; */
+        width: 80%;
+        /* align-content: center; */
+        margin: 0 auto;
+    }
+.create-input {
+        margin: 14px 0;
+        height: 24px;
+        border: none;
+        background: whitesmoke;
+        border-radius: 8px;
+        padding: 7px;
+        font-size: large;
+        outline: none;
+}
+.create-button {
+    margin: 14px auto;
+    height: 30px;
+    border: none;
+    background: gray;
+    border-radius: 8px;
+    padding: 7px;
+    font-weight: bold;
+    font-size: large;
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    width: 30%;
+}
+
+@media all and (max-width:425px){
+    .creating {
+        text-align: center;
+        width: 100%;
+        margin: 30px auto;
+    }
+    h1 {
+        margin: 5px 0px;
+        font-size: larger;
+    }
+    .creating > form {
+        /* width: 50%; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* justify-items: center; */
+        width: 80%;
+        /* align-content: center; */
+        margin: 0 auto;
+    }
+    .create-input {
+        margin: 12px 0;
+        height: 12px;
+        border: none;
+        background: whitesmoke;
+        border-radius: 8px;
+        padding: 6px;
+        font-size: small;
+        outline: none;
+    }
+    
+    .create-button {
+        margin: 14px auto;
+        height: 22px;
+        border: none;
+        background: gray;
+        border-radius: 6px;
+        padding: 4px;
+        /* font-weight: bold; */
+        font-size: small;
+        /* justify-items: center; */
+        /* align-items: center; */
+        /* align-content: center; */
+        width: 30%;
+    }
+}
